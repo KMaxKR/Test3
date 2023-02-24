@@ -7,12 +7,13 @@ public class Main {
 
         Shape polygon = new Polygon();  //polimorfizm
         Shape circle1 = new Circle();   //polimorfizm
-        //Shape Notsquare = new Square();   //Doesn't work 'cause Square not extend Shape 
+        Shape square1 = new Square();
 
         System.out.println(square.render());
         System.out.println(circle.render());
 
         System.out.println(polygon.render());
         System.out.println(circle1.render());
+        System.out.println(square1.render());
     }
 }
